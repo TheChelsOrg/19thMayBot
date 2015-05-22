@@ -4,9 +4,12 @@
 
 ###### Notes
 
-The commentary-log.csv contains the order of tweets (text), the time offset (the bot sleeps for x minutes after tweet before the next one).
+The commentary-log.csv contains:
+ + Ranking number (the number of tweets)
+ + The time offset (the bot sleeps for x minutes after tweet before the next one to try and replicate game time).
+ + Text (the body of the tweet).
 
-The Twitter API allows for 250 calls per rolling 24 hour period. so the CSV file should have no more than 200 rows.
+The Twitter API allows for 2400 calls per rolling 24 hour period. so the CSV file should have no more than 2000 rows to be safe, the first commit had 100.
 
 The text in the file should not be more than 140 characters (otherwise twitter won't publish it).
 
