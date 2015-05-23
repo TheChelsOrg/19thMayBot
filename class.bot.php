@@ -25,7 +25,7 @@ class Bot {
 	}
 
 	function tweet($message) {
-		$connection = new TwitterOAuth( 'xxx', 'xxx', 'xxx', 'xxx');
+		$connection = new TwitterOAuth( KEY1, KEY2, KEY3, KEY4);
 		$connection->get('account/verify_credentials');
 		$connection->post('statuses/update',array('status' => $message));
 	}
