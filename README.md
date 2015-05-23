@@ -5,7 +5,6 @@
 #### Notes
 
 The commentary-log.csv contains:
- + Ranking number (the number of tweets)
  + The time offset (the bot sleeps for x minutes after tweet before the next one to try and replicate game time).
  + Text (the body of the tweet).
 
