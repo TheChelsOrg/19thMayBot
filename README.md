@@ -15,7 +15,7 @@ The text in the file should not be more than 140 characters (otherwise twitter w
 #### Contributing
 
 Feel free to contribute ( add more details, correct typos, and general improvements).
-Folk it, change it, pull it.
+Fork it, change it, pull it.
 
 read CONTRIBUTING.md for more info.
 
