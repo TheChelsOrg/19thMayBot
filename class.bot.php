@@ -10,13 +10,11 @@ class Bot {
 			$array[] = $line;
 		}
 
-		$remove_labels = array_shift($array); // the CSV column headings
-			print "<h3>{$remove_labels}</h3>";
+		$remove_labels = array_shift($array); // the CSV column headings discarded.
 
 		foreach($array as $tweet):
 			$this->tweet( $tweet['1'] );
 			$this->sleeper( (int) $tweet['0'] );
-			print "<li>".(int) $tweet['0']." - ".$tweet['1'] ."</li>";
 		endforeach;
 	}
 	
