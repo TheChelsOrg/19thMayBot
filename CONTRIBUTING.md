@@ -8,10 +8,13 @@ The following guidelines for contribution should be followed if you want to subm
 
 * You need a [GitHub account](https://github.com/signup/free)
 * Submit an [issue ticket](https://github.com/ChelseaStats/19thMayBot/issues) for your issue if there is not one already.
-	* Describe the issue and include steps to reproduce if it's a bug.
+	* Describe the issue and include steps to reproduce if it's a bug
 	* Ensure to mention the earliest version that you know is affected.
 
-If the issue already exists at a +1 comment to track the issues progress and alert me that it's impacting more than one user.
+In both cases above including a link to the tweet is the easiest thing, with whats wrong and what should be right.
+
+If, however, the issue already exists in the issues log add a +1 comment to track the issues progress and alert me that it's impacting more than one user.
+
 Please go ahead and add your info as outlined below.
 
 ### Using the issue tracker
