@@ -10,7 +10,7 @@ class Bot {
 			$array[] = $line;
 		}
 
-		$remove_labels = array_shift($array); // the CSV column headings discarded.
+		array_shift($array); // the CSV column headings discarded.
 
 		foreach($array as $tweet):
 			$this->tweet( $tweet['1'] );
