@@ -14,8 +14,5 @@
  */
 	$match = 60*165; 
 	ini_set('max_execution_time', $match);
-	require_once( '../config.php');
-	require_once( 'twitteroauth.php');
-	require_once( 'class.bot.php' );
 	$bot = new bot();
 	$bot->Process('commentary-log.csv');
