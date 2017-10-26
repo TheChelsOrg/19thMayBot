@@ -8,6 +8,7 @@ namespace ucl
 {
     public class Program
     {
+        // ReSharper disable once UnusedParameter.Local
         private static void Main(string[] args)
         {
             var consumerKey = ConfigurationManager.AppSettings["consumerKey"];
@@ -27,7 +28,8 @@ namespace ucl
                 {
                     while (!reader.EndOfStream)
                     {
-                        var firstline = reader.ReadLine(); // first line to discard
+                        // ReSharper disable once UnusedVariable
+                        var firstline = reader.ReadLine();
                         var line = reader.ReadLine();
                         if (line == null) continue;
                         var values = line.Split(new[] { ',' }, 2);
