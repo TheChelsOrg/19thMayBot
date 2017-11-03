@@ -23,3 +23,5 @@ read CONTRIBUTING.md for more info.
 #### History
 
 The original commentary-log.csv was taken from the 31st December 2012 / 1st January 2013 when @ChelseaStats started new year with a 'live' tweeting of the best night in 2012.
+
+<p><a href="https://www.patreon.com/ChelseaStats">Help support the running of this site and twitter accounts on Patreon</a>
