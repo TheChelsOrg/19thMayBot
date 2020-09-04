@@ -1,6 +1,6 @@
 # Nineteenth of May Bot
 
-![Tweet](https://github.com/TheChelsOrg/bot_nineteenth_of_may/workflows/Tweet/badge.svg) ![Pylint](https://github.com/TheChelsOrg/bot_nineteenth_of_may/workflows/Pylint/badge.svg)
+![Tweet](https://github.com/TheChelsOrg/bot_nineteenth_of_may/workflows/Tweet/badge.svg) ![Linter](https://github.com/TheChelsOrg/bot_nineteenth_of_may/workflows/Linter/badge.svg)
 
 > A twitter bot that live tweets the Champions League final of May 19th 2012 on its anniversary.
 
