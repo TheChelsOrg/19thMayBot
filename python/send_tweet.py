@@ -8,7 +8,7 @@ import csv
 import time
 import tweepy
 
-# personal details 
+# personal details
 consumer_key = os.getenv('c_key')
 consumer_secret = os.getenv('c_secret')
 access_token = os.getenv('a_token')
